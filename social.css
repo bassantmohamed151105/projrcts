@@ -1,0 +1,59 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    
+}
+.login
+{
+    width:300px;
+     background-color: rgba(53, 53, 53, 0.559);
+    border-radius: 15px;
+    padding: 20px;
+}
+img 
+{
+      border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.image 
+{
+display: flex;
+justify-content: center;
+}
+.info
+{
+  text-align: center;
+  color:white;
+ text-transform: capitalize;
+}
+.name
+{
+    font-size: 30px;
+}
+.location
+{
+    color:greenyellow;
+}
+.links a
+{
+ display: block;
+text-align: center;
+background-color: rgb(45, 43, 43);
+padding: 10px;
+margin: 10px;
+text-transform: capitalize;
+cursor: pointer;
+ text-decoration: none;
+color: white;
+border-radius: 10px;
+}
+.links a:hover
+{
+    color: black;
+    background-color: greenyellow;
+}
